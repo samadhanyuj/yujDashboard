@@ -10,7 +10,6 @@ class Person {
   getName() {
     return `${this.firstName} - ${this.lastName}`;
   }
-
   greet() {
     return `Hello good morning ${this.getName()}`;
   }
