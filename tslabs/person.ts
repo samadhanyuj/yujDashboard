@@ -11,7 +11,7 @@ class Person {
     return `${this.firstName} - ${this.lastName}`;
   }
   greet() {
-    return `Hello good morning ${this.getName()}`;
+    return `Hello good night ${this.getName()}`;
   }
 }
 
