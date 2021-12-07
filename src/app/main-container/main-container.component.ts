@@ -3,13 +3,15 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-main-container',
   templateUrl: './main-container.component.html',
-  styleUrls: ['./main-container.component.less']
+  styleUrls: ['./main-container.component.css'],
 })
 export class MainContainerComponent implements OnInit {
+  personAdress = ['Pune', '50043', 'IND'];
+  constructor() {}
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
+  getDetails(data: any) {
+    console.log(JSON.stringify(data));
   }
-
 }

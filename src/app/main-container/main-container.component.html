@@ -1,1 +1,8 @@
 <p>main-container works!</p>
+
+<app-profile
+  [personName]="'hello world'"
+  [addressDetails]="personAdress"
+  (loginDetails)="getDetails($event)"
+>
+</app-profile>
