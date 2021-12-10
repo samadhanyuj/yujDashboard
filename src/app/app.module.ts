@@ -9,6 +9,10 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { AdminComponent } from './admin/admin.component';
 import { MainContainerComponent } from './main-container/main-container.component';
 import { ProfileComponent } from './profile/profile.component';
+import { LoginComponentComponent } from './login-component/login-component.component';
+import { HomeComponenetComponent } from './home-componenet/home-componenet.component';
+import { NotFoundComponentComponent } from './not-found-component/not-found-component.component';
+import { LoginComponenetComponent } from './login-componenet/login-componenet.component';
 
 @NgModule({
   declarations: [
@@ -18,13 +22,14 @@ import { ProfileComponent } from './profile/profile.component';
     SidebarComponent,
     AdminComponent,
     MainContainerComponent,
-    ProfileComponent
+    ProfileComponent,
+    LoginComponentComponent,
+    HomeComponenetComponent,
+    NotFoundComponentComponent,
+    LoginComponenetComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
